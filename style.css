@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-image: linear-gradient(#756AB6, #E0AED0);
+    border:3px solid #0c0b14;
+}
+
+.container{
+    margin: auto;
+    height: 90vmin;
+    width: 90vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+    border:3px solid #0c0b14;
+}
+
+.container .guess_the_number{
+    height: 50vmin;
+    width: 27vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient( #A1EEBD, #F6F7C4) ;
+    transition: 1s;
+}
+
+.container .guess_the_number h2{
+    margin: auto;
+    padding-top: 1vmin;
+}
+
+.container .guess_the_number:hover{
+    padding: 2vmin 2vmin;
+    height: 51vmin;
+    width: 28vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient(#756AB6, #E0AED0);
+}
+
+.container .guess_the_number img{
+    margin: auto;
+    padding-top: 3vmin;
+    height: 30vmin;
+    width: 20vmin;
+    mix-blend-mode: multiply;
+}
+
+.container .guess_the_number #btn1{
+    margin: auto;
+    padding: 1vmin;
+    display: inline;
+    border: 3px solid rebeccapurple;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-image: linear-gradient( #A1EEBD, #7BD3EA) ;
+    transition: 1s;
+}
+
+.container .guess_the_number #btn1 :hover{
+    border: 3px solid rgb(19, 19, 19);
+    border-radius: 2rem;
+    padding: 1vmin;
+    background-image: linear-gradient( #C4B0FF, #8696FE) ;
+    
+}
+
+.container .rock_paper_secissor{
+    height: 50vmin;
+    width: 27vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient( #A1EEBD, #F6F7C4) ;
+    transition: 1s;
+}
+
+.container .rock_paper_secissor h2{
+    margin: auto;
+    padding-top: 1vmin;
+}
+
+.container .rock_paper_secissor img{
+    margin: auto;
+    padding-top: 3vmin;
+    height: 30vmin;
+    width: 20vmin;
+    mix-blend-mode: multiply;
+}
+
+.container .rock_paper_secissor:hover{
+    padding: 2vmin 2vmin;
+    height: 51vmin;
+    width: 28vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient(#756AB6, #E0AED0);
+}
+
+.container .rock_paper_secissor #btn2{
+    margin: auto;
+    padding: 1vmin;
+    display: inline;
+    border: 3px solid rebeccapurple;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-image: linear-gradient( #A1EEBD, #7BD3EA) ;
+    transition: 1s;
+}
+
+.container .rock_paper_secissor #btn2:hover{
+    border: 3px solid rgb(19, 19, 19);
+    border-radius: 2rem;
+    padding: 1vmin;
+    background-image: linear-gradient( #C4B0FF, #8696FE) ;
+}
+
+.container .tic_tac_toe{
+    height: 50vmin;
+    width: 27vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient( #A1EEBD, #F6F7C4) ;
+    transition: 1s;
+}
+
+.container .tic_tac_toe h2{
+    margin: auto;
+    padding-top: 1vmin;
+}
+
+.container .tic_tac_toe img{
+    margin: auto;
+    padding-top: 3vmin;
+    height: 30vmin;
+    width: 20vmin;
+    mix-blend-mode: multiply;
+}
+
+.container .tic_tac_toe:hover{
+    padding: 2vmin 2vmin;
+    height: 51vmin;
+    width: 28vmin;
+    border: 3px solid rgb(194, 153, 235);
+    cursor: pointer;
+    box-shadow: #C7DCA7 0px 22px 70px 4px;
+    border-radius: 1rem;
+    background-image: linear-gradient(#756AB6, #E0AED0);
+}
+
+.container .tic_tac_toe #btn3{
+    margin: auto;
+    padding: 1vmin;
+    display: inline;
+    border: 3px solid rebeccapurple;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-image: linear-gradient( #A1EEBD, #7BD3EA) ;
+    transition: 1s;
+}
+
+.container .tic_tac_toe #btn3:hover{
+    border: 3px solid rgb(19, 19, 19);
+    border-radius: 2rem;
+    padding: 1vmin;
+    background-image: linear-gradient( #C4B0FF, #8696FE) ;
+}
+
